@@ -1,4 +1,4 @@
-// Slider de Imagens para o Banner
+
 let slideIndex = 0;
 showSlides();
 
@@ -11,7 +11,7 @@ function showSlides() {
   setTimeout(showSlides, 5000); // Troca de slide a cada 5 segundos
 }
 
-// Efeito de Scroll Suave para Navegação
+
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   anchor.addEventListener('click', function (e) {
     e.preventDefault();
@@ -21,7 +21,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
   });
 });
 
-// Filtro de Pacotes de Viagens (com JavaScript)
+
 const filterButtons = document.querySelectorAll('.filter-btn');
 const pacoteCards = document.querySelectorAll('.pacote-card');
 
@@ -41,7 +41,7 @@ filterButtons.forEach(button => {
   });
 });
 
-// Botão de Ver Detalhes com Modal Pop-up
+
 const detailButtons = document.querySelectorAll('.btn-secondary');
 const modal = document.createElement('div');
 modal.className = 'modal';
